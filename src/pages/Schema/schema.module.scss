@@ -1,0 +1,9 @@
+@use '../../theme' as t;
+
+img {
+  height: 60px;
+}
+
+.root {
+  background-color: t.$color-background-main;
+}
