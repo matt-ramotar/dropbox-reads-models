@@ -8,6 +8,7 @@ export interface Models {
 
 export interface Model {
   properties?: Properties
+  enum?: any[]
   required?: string[]
   type?: string
   additionalProperties?: boolean
