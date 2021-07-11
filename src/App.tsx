@@ -32,7 +32,6 @@ export default function AppHoc(): JSX.Element | null {
     async function getSchemaAsync() {
       const spec = await fetchSpec()
       setSchema(getSchema(spec.components))
-      console.log(spec)
     }
   }, [setSchema]);
 
