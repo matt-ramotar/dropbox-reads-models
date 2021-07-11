@@ -44,7 +44,7 @@ export default function Table(props: Props): JSX.Element {
                 <Box key={key} style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "flex-start" }}>
 
                   <Typography style={{ color: "#C8C8CB", fontWeight: "bold", marginRight: 5 }}>{`${key}: `}</Typography>
-                  <Typography style={{ color: "#212121" }} variant="caption">{value.type}</Typography>
+                  <Typography style={{ color: "#8B8B8C" }} variant="caption">{value.type}</Typography>
                 </Box>
               )
             })}
